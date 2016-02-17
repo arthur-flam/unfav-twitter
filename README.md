@@ -1,11 +1,15 @@
-# Twitter unfavorite automation
+# Twitter unfavorite/unlike automation
 
 ## Setup
 Fill details in the `config.js` file :
 - API token and keys...
-- etc.
+- The blacklist and whitelist help you choose which favorites/likes you want to remove.
 
 ## Run
 ```bash
-while true; do node app.js ; sleep $[ ( $RANDOM % 100 )  + 1 ]s ; done
+while true; do node app.js ; sleep 60s ; done
 ```
+Mind the 15/15min rate limit
+
+## Licence
+MIT
