@@ -3,5 +3,11 @@ module.exports = {
     CONSUMER_SECRET:'XXXXXXXXX',
     ACCESS_TOKEN_KEY: 'XXXXX-XXXXX',
     ACCESS_TOKEN_SECRET: 'XXXXXXX'
+    
+    BLACKLIST: ["word i dont like"]; // use lowercase without accents
+    WHITELIST: ["my name"],
+
+    USE_MAX_ID : true // enable pagination
+    
 }
 
