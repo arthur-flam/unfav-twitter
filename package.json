@@ -1,13 +1,14 @@
 {
   "name": "unfav-twitter",
   "version": "1.0.0",
-  "description": "Delete favorites in bulk",
+  "description": "Delete twitter favorites/likes in bulk",
   "main": "config.js",
   "scripts": {
+    "start": "while true; do node app.js ; sleep 60s ; done"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "@ArthurFlam",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "diacritics": "^1.2.3",
     "twitter": "^1.2.5"
